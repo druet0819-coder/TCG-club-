@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCG club</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            background-image: url('images/Artboard 1.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+
+
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            max-width: 500px;
+            margin: auto;
+            
+
+        }
+
+        img {
+            margin: auto;
+            display: block;
+        }
+
+        button {
+            text-align: center;
+            max-width: 500px;
+            margin-inline: auto;
+        }
+
+        div {
+            text-align: center;
+            max-width: 500px;
+            margin-inline: auto;
+        }
+
+        /* Style the tab container */
+        .tab {
+            margin: 40px auto;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+            width: 50%;
+        }
+
+        /* Style the buttons that are used to open the tab content */
+        .tab button {
+            display: block;
+            background-color: inherit;
+            color: #333;
+            padding: 35px 20px;
+            width: 50%;
+            border: none;
+            outline: none;
+            text-align: center;
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 20px;
+            float: middle;
+        }
+
+        /* Clear floats after the tabs */
+        .tab::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Create an active/current "tab button" class */
+        .tab button.active {
+            background-color: #000000;
+            color: rgb(255, 255, 255);
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            padding: 40px;
+            border: 1px solid #ccc;
+            width: 50%;
+            margin: auto;
+            background-color: #333;
+        }
+
+        footer {
+            text-align: center;
+            color: rgb(254, 253, 252);
+            margin-top: 50px;
+            padding: 30px;
+        }
+
+        .text-box {
+            border: 3px solid #000000;
+            padding: 30px;
+            background-color: #ffffff;
+            width: 300px;
+            margin: 30px auto;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 style="color: rgb(254, 253, 252);"> TCG club!!! </h1>
+    </header>
+
+    <main>
+       
+        <section style="margin-top: 20px;">
+            <p style="color: rgb(254, 253, 252);" style="font-family:courier;" > 
+             Welcome to the TCG club! We are a group of students who love trading card games and want to share our passion with others. Whether you're a seasoned player or just starting out, we welcome everyone to join us for fun, learning, and friendly competition. Come meet new friends, learn new strategies, and enjoy the world of trading card games!
+            </p>
+        </section>
+
+
+    <header>
+        <h1 style="color: rgb(254, 253, 252);"> Our teachers who play and can help out! </h1>
+    </header>
+
+        <!-- Tab Links -->
+        <div class="tab">
+            <button class="tablinks" id="defaultOpen" onclick="openCity(event, 'Mr. Smith')">Mr. Smith</button>
+            <button class="tablinks" onclick="openCity(event, 'Mr. Beck')">Mr. Beck</button>
+            <button class="tablinks" onclick="openCity(event, 'Mr. Huynh')">Mr. Huynh</button>
+        </div>
+
+        <!-- Tab Content -->
+        <div id="Mr. Smith" class="tabcontent">
+            <h1 style="color: rgb(254, 253, 252)"; style="font-family:verdana;">Mr. Smith</h1>
+            <h2 style="color: rgb(254, 253, 252);" style="font-family:arial;" >I thrive on incremental advantage, synergy, and engine-building rather than overwhelming my opponents with raw power or quick combos. My blink-focused Atraxa deck reflects how much I enjoy reusing ETB effects, getting maximum value from my resources, and turning individual cards into powerful interactions.</h2>
+            <img src="images/478532_in_1000x1000.jpg" style="width: 30%; margin: auto; display: block;">
+        </div>
+
+        <div id="Mr. Beck" class="tabcontent">
+            <h1 style="color: rgb(254, 253, 252);">Mr. Beck</h1>
+            <h2 style="color: rgb(254, 253, 252);">I am a player with patience and a bringer of inevitable doom. Every enchantment on the board is a brick in a wall—individually modest, but collectively suffocating. I'm not looking for a single explosive turn. I'm taking my opponents down through relentless value and attrition while their permanents quietly accumulate advantage in the background.
+!</h2>
+            <img src="images/DSC_0228.png" style="width: 90%; margin: auto; display: block;">
+        </div>
+
+        <div id="Mr. Huynh" class="tabcontent">
+            <h1 style="color: rgb(254, 253, 252);">Mr. Huynh</h1>
+            <h2 style="color: rgb(254, 253, 252);">I like to overwhelm the board with tokens while using Goad to force my opponents into fighting each other. My strategy is all about creating chaos, building up an army, and turning my opponents’ creatures against each other while I capitalize on the disorder.</h2>
+            <img src="images/DSC_0214 (1).png" style="width: 90%; margin: auto; display: block;">
+        </div>
+        
+
+ <header>
+        <h1 style="color: rgb(254, 253, 252);"> Some helpful links! </h1>
+    </header>
+
+
+<a style="width: 50%; margin: auto; display: block;" href="https://burlesonisd.schoology.com/link?a=&path=https%3A%2F%2Fmagic.wizards.com%2Fen%2Fkeyword-glossary&nid=8043579620" target="_blank">MTG key words!</a>
+<a style="width: 50%; margin: auto; display: block;" href="https://burlesonisd.schoology.com/link?a=&path=https%3A%2F%2Fgatherer.wizards.com%2F&nid=8043580719" target="_blank">MTG Card Database</a>
+
+<style>
+
+
+
+</style>
+
+
+
+   <header>
+        <h1 style="color: rgb(254, 253, 252);"> Some of our seniors who play TCGs! </h1>
+    </header>
+
+      <div class="tab">
+            <button class="tablinks" id="defaultOpen" onclick="openCity(event, 'Zac')">Zac</button>
+            <button class="tablinks" onclick="openCity(event, 'Andrew')">Andrew</button>
+            <button class="tablinks" onclick="openCity(event, 'Chase')">Chase</button>
+            <button class="tablinks" onclick="openCity(event, 'Drue')">Drue</button>
+        </div>
+
+
+
+
+        <div id="Zac" class="tabcontent">
+            <h1 style="color: rgb(254, 253, 252);">Zac</h1>
+            <h2 style="color: rgb(254, 253, 252);">AGGRESIVE!!!!!!!!!!!!!!!</h2>
+            <img src="images/DSC_0222.png" style="width: 90%; margin: auto; display: block;">
+        </div>
+
+        <div id="Andrew" class="tabcontent">
+            <h1 style="color: rgb(254, 253, 252);">Andrew</h1>
+            <h2 style="color: rgb(254, 253, 252);">"control"</h2>
+            <img src="images/DSC_0216.png" style="width: 90%; margin: auto; display: block;">
+
+        </div>
+
+        <div id="Chase" class="tabcontent">
+            <h1 style="color: rgb(254, 253, 252);">Chase</h1>
+            <h2 style="color: rgb(254, 253, 252);"> Generally, I like to play a more defensive playstyle. One that not only protects myself, but also my creatures and my overall strength on the board. It helps me stay in the game and create opportunities for politics.</h2>
+            <img src="images/DSC_0224.png" style="width: 90%; margin: auto; display: block;">   
+        </div>
+
+        <div id="Drue" class="tabcontent">
+            <h1 style="color: rgb(254, 253, 252);">Drue</h1>
+            <h2 style="color: rgb(254, 253, 252);">I like to reanimate my creatures while buffing up my creatures so fast to leave my opponents in the dust using speed and ramp</h2>
+            <img src="images/DSC_0211.png" style="width: 90%; margin: auto; display: block;">
+        </div>
+
+
+        <div class="text-box">
+            Please talk to Mr. Smith, Mr. Beck, or Mr. Huynh if you are interested in joining the TCG club!
+        </div>
+    </main>
+
+    <!-- JavaScript placed at the very bottom so elements exist before running -->
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Automatically click the first tab on page load
+        document.getElementById("defaultOpen").click();
+    </script>
+
+
+
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
